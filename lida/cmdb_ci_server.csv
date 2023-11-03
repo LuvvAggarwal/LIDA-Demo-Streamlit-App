@@ -1,0 +1,178 @@
+﻿name,manufacturer,model_id,os,os_version,short_description,location,asset.install_status
+ApplicationServerHelpdesk,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP,,HelpDesk App Server,"5052 Clairemont Drive, San Diego,CA",In use
+ApplicationServerPeopleSoft,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Linux Red Hat,,PeopleSoft App Server,"5052 Clairemont Drive, San Diego,CA",In use
+AS400,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,OS/400,V5R2,"System name: PHX400, enterprise server with ABS software, s/n 10-B7CDF","4193 University Avenue, San Diego,CA",In use
+Car-1,Microsoft,Dell Inc. XPS 14z,Windows XP,5.2 build 3790,Domain Controller/Exchange Server/FTP Server,"4193 University Avenue, San Diego,CA",In use
+Car-2,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,HP/UX,2.6.050,Network Attached Storage,"4193 University Avenue, San Diego,CA",In use
+Car-3,Microsoft,Dell Inc. PowerEdge C6100 Rack Server,Windows XP,5.2 build 3790,Print Server / Mom Server / ADP Server,"5052 Clairemont Drive, San Diego,CA",In use
+Car-4,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2000,5.0 build 2195,File / Web (Intranet) / Payroll database,"4193 University Avenue, San Diego,CA",In use
+DatabaseServer1,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Linux Red Hat,Enterprise,DB Server,"4193 University Avenue, San Diego,CA",In use
+DatabaseServer2,Dell Inc.,Dell Inc. PowerEdge C6100 Rack Server,Linux Red Hat,Enterprise,DB Server,"4193 University Avenue, San Diego,CA",In use
+dbaix900nyc,IBM,IBM BladeCenter Blade HS22,AIX,5L,,"Bockenheimer Landstraße 123, Frankfurt",In use
+dbaix901nyc,IBM,IBM BladeCenter Blade HS22,AIX,5L,,"Bockenheimer Landstraße 123, Frankfurt",In use
+dbaix902nyc,IBM,IBM BladeCenter Blade HS22,AIX,5L,,"Bockenheimer Landstraße 123, Frankfurt",In use
+FileServerFloor1,Lenovo,Lenovo ThinkStation S20,Windows XP,Professional,1st Floor File Server,"5052 Clairemont Drive, San Diego,CA",In use
+FileServerFloor2,Lenovo,Lenovo ThinkStation S20,Windows XP,Professional,2nd Floor File Server,"5052 Clairemont Drive, San Diego,CA",In use
+INSIGHT-NY-03,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP,,,"5052 Clairemont Drive, San Diego,CA",In use
+lawson_app_100,IBM,IBM x3690 X5 Rack,Solaris,10,,"Bockenheimer Landstraße 123, Frankfurt",In use
+lawson_db_100,Sun Microsystems,IBM x3690 X5 Rack,Solaris,10,,"Bockenheimer Landstraße 123, Frankfurt",In use
+lnux100,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,,"322 West 52nd Street, New York,NY",In use
+lnux101,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,,"322 West 52nd Street, New York,NY",In use
+MailServerUS,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,,US Main Mail Server,"4193 University Avenue, San Diego,CA",In use
+OWA-SD-01,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+PS LinuxApp01,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,,"322 West 52nd Street, New York,NY",In use
+PS LinuxApp02,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,,"322 West 52nd Street, New York,NY",In use
+PS LoadBal01,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+samlabvm503,,,Windows 2016 Datacenter,,,,
+SAP AppSRV01,IBM,IBM Power 710 Express,AIX,,,"4193 University Avenue, San Diego,CA",In use
+SAP AppSRV02,IBM,IBM Power 710 Express,AIX,,,"4193 University Avenue, San Diego,CA",In use
+SAP LoadBal01,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SAP LoadBal02,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SAP-NY-02,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SAP-SD-01,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SAP-SD-02,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SAP-SD-03,Lenovo,Lenovo ThinkServer TD230,Windows 2003 Standard,,,"Via Nomentana 56, Rome",In use
+SD1,Dell Inc.,Dell Inc. PowerEdge C6100 Rack Server,Windows XP,,,"4193 University Avenue, San Diego,CA",In use
+Server-LS1,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-LS10,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Development,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-LS2,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-LS3,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"243 South Escondido Boulevard, Escondido,CA",
+Server-LS4,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Disaster Recovery,"945 South Birch Street, Glendale,CO",
+Server-LS5,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"Paradise Road, Richmond, London",
+Server-LS6,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"8306 Mills Drive, Miami,FL",
+Server-LS7,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"3 Whitehall Court, London",
+Server-LS8,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"248 Abbotsford Road, Brisbane",
+Server-LS9,Iris,Iris 5875,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-US1,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+Server-US10,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US11,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US12,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US13,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US14,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US15,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US16,IBM,IBM BladeCenter Blade HS22,AIX,5L,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-US17,IBM,IBM BladeCenter Blade HS22,AIX,5L,Production,"Paradise Road, Richmond, London",
+Server-US18,IBM,IBM BladeCenter Blade HS22,AIX,5L,Production,"Paradise Road, Richmond, London",
+Server-US19,IBM,IBM BladeCenter Blade HS22,AIX,5L,Production,"75-85 York Street, Melbourne",
+Server-US2,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+Server-US3,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+Server-US4,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US5,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US6,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US7,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US8,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-US9,IBM,IBM x3690 X5 Rack,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+Server-WS1,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"Paradise Road, Richmond, London",
+Server-WS10,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"140 George Street, Sydney",
+Server-WS11,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"13308 Midland Road, Poway,CA",
+Server-WS12,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"SHS quadra 5, Bloco E., Brasilia",
+Server-WS13,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"27, Boulevard Vitton, Paris",
+Server-WS14,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"27, Boulevard Vitton, Paris",
+Server-WS15,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"SHS quadra 5, Bloco E., Brasilia",
+Server-WS16,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Production,"13770 Noel Road, Dallas,TX",
+Server-WS17,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"248 Abbotsford Road, Brisbane",
+Server-WS18,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-WS19,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Disaster Recovery,"946 Donax Avenue, Imperial Beach,CA",
+Server-WS2,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"27, Boulevard Vitton, Paris",
+Server-WS20,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-WS21,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Production,"946 Donax Avenue, Imperial Beach,CA",
+Server-WS22,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS23,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS24,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Disaster Recovery,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS25,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS26,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,10.0.14393,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS3,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"13770 Noel Road, Dallas,TX",
+Server-WS4,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Disaster Recovery,"SHS quadra 5, Bloco E., Brasilia",
+Server-WS5,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Test,"302 Washington Street, San Diego,CA",
+Server-WS6,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"Paradise Road, Richmond, London",
+Server-WS7,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Server-WS8,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"SHS quadra 5, Bloco E., Brasilia",
+Server-WS9,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+Service-now Production Sacramento,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Linux Red Hat,Enterprise Server 3,Glide Production ,"5052 Clairemont Drive, San Diego,CA",In use
+Service-now Production San Diego,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Linux Red Hat,Enterprise Server 3,Glide Production,"5052 Clairemont Drive, San Diego,CA",In use
+unix200,IBM,IBM x3690 X5 Rack,Solaris,10,,"Bockenheimer Landstraße 123, Frankfurt",In use
+unix201,Sun Microsystems,IBM x3690 X5 Rack,Solaris,10,,"Bockenheimer Landstraße 123, Frankfurt",In use
+VirtualMachine-LS1,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS10,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS11,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS12,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"243 South Escondido Boulevard, Escondido,CA",
+VirtualMachine-LS13,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"945 South Birch Street, Glendale,CO",
+VirtualMachine-LS14,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS15,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS16,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"248 Abbotsford Road, Brisbane",
+VirtualMachine-LS17,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS18,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS2,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-LS3,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"243 South Escondido Boulevard, Escondido,CA",
+VirtualMachine-LS4,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"945 South Birch Street, Glendale,CO",
+VirtualMachine-LS5,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"Paradise Road, Richmond, London",
+VirtualMachine-LS6,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"8306 Mills Drive, Miami,FL",
+VirtualMachine-LS7,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"3 Whitehall Court, London",
+VirtualMachine-LS8,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"248 Abbotsford Road, Brisbane",
+VirtualMachine-LS9,IBM,IBM BladeCenter Blade HS22,Linux Red Hat,2.6.9-22.0.1.ELsmp,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-US1,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+VirtualMachine-US10,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US11,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US12,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US13,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US14,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US15,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US16,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US17,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"Paradise Road, Richmond, London",
+VirtualMachine-US18,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"Paradise Road, Richmond, London",
+VirtualMachine-US19,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"Paradise Road, Richmond, London",
+VirtualMachine-US2,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+VirtualMachine-US20,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US21,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US22,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US23,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US24,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US25,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US26,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-US27,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"Paradise Road, Richmond, London",
+VirtualMachine-US28,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,AIX,5L,Production,"75-85 York Street, Melbourne",
+VirtualMachine-US3,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"6304 Northwest Barry Road, Kansas City,MO",
+VirtualMachine-US4,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US5,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US6,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US7,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US8,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-US9,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Solaris,10,Production,"153 South Sierra Avenue, Solana Beach,CA",
+VirtualMachine-WS1,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"SHS quadra 5, Bloco E., Brasilia",
+VirtualMachine-WS10,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"140 George Street, Sydney",
+VirtualMachine-WS11,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"13308 Midland Road, Poway,CA",
+VirtualMachine-WS12,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"SHS quadra 5, Bloco E., Brasilia",
+VirtualMachine-WS13,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"27, Boulevard Vitton, Paris",
+VirtualMachine-WS14,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"27, Boulevard Vitton, Paris",
+VirtualMachine-WS15,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"SHS quadra 5, Bloco E., Brasilia",
+VirtualMachine-WS16,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"13770 Noel Road, Dallas,TX",
+VirtualMachine-WS17,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"248 Abbotsford Road, Brisbane",
+VirtualMachine-WS18,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS19,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS2,Microsoft,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS20,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS21,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS22,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS23,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS24,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS25,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS26,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS27,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"Paradise Road, Richmond, London",
+VirtualMachine-WS28,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"27, Boulevard Vitton, Paris",
+VirtualMachine-WS29,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"13770 Noel Road, Dallas,TX",
+VirtualMachine-WS3,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"13770 Noel Road, Dallas,TX",
+VirtualMachine-WS30,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS31,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS32,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS33,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS34,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2008 R2 Datacenter,6.3.9600,Production,"946 Donax Avenue, Imperial Beach,CA",
+VirtualMachine-WS4,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"SHS quadra 5, Bloco E., Brasilia",
+VirtualMachine-WS5,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"302 Washington Street, San Diego,CA",
+VirtualMachine-WS6,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"Paradise Road, Richmond, London",
+VirtualMachine-WS7,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VirtualMachine-WS8,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"SHS quadra 5, Bloco E., Brasilia",
+VirtualMachine-WS9,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows XP Professional,5.1.2600,Production,"4492 Camino De La Plaza, San Ysidro,CA",
+VMWARE-SD-04,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2000 Server,,,"5052 Clairemont Drive, San Diego,CA",In use
+VMWARE-SD-07,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,Windows 2000 Server,,,"5052 Clairemont Drive, San Diego,CA",In use
+Webserver FLX,Dell Inc.,Dell Inc. PowerEdge M710HD Blade Server,,,,"4193 University Avenue, San Diego,CA",In use
+win2003-dc-64bit,,,Windows 2003 Datacenter,10.0.17763,,,
