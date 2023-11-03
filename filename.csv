@@ -1,157 +1,69 @@
-Overall_rank,Country_or_region,Score,GDP_per_capita,Social_support,Healthy_life_expectancy,Freedom_to_make_life_choices,Generosity,Perceptions_of_corruption
-1,Finland,7.769,1.34,1.587,0.986,0.596,0.153,0.393
-2,Denmark,7.6,1.383,1.573,0.996,0.592,0.252,0.41
-3,Norway,7.554,1.488,1.582,1.028,0.603,0.271,0.341
-4,Iceland,7.494,1.38,1.624,1.026,0.591,0.354,0.118
-5,Netherlands,7.488,1.396,1.522,0.999,0.557,0.322,0.298
-6,Switzerland,7.48,1.452,1.526,1.052,0.572,0.263,0.343
-7,Sweden,7.343,1.387,1.487,1.009,0.574,0.267,0.373
-8,New Zealand,7.307,1.303,1.557,1.026,0.585,0.33,0.38
-9,Canada,7.278,1.365,1.505,1.039,0.584,0.285,0.308
-10,Austria,7.246,1.376,1.475,1.016,0.532,0.244,0.226
-11,Australia,7.228,1.372,1.548,1.036,0.557,0.332,0.29
-12,Costa Rica,7.167,1.034,1.441,0.963,0.558,0.144,0.093
-13,Israel,7.139,1.276,1.455,1.029,0.371,0.261,0.082
-14,Luxembourg,7.09,1.609,1.479,1.012,0.526,0.194,0.316
-15,United Kingdom,7.054,1.333,1.538,0.996,0.45,0.348,0.278
-16,Ireland,7.021,1.499,1.553,0.999,0.516,0.298,0.31
-17,Germany,6.985,1.373,1.454,0.987,0.495,0.261,0.265
-18,Belgium,6.923,1.356,1.504,0.986,0.473,0.16,0.21
-19,United States,6.892,1.433,1.457,0.874,0.454,0.28,0.128
-20,Czech Republic,6.852,1.269,1.487,0.92,0.457,0.046,0.036
-21,United Arab Emirates,6.825,1.503,1.31,0.825,0.598,0.262,0.182
-22,Malta,6.726,1.3,1.52,0.999,0.564,0.375,0.151
-23,Mexico,6.595,1.07,1.323,0.861,0.433,0.074,0.073
-24,France,6.592,1.324,1.472,1.045,0.436,0.111,0.183
-25,Taiwan,6.446,1.368,1.43,0.914,0.351,0.242,0.097
-26,Chile,6.444,1.159,1.369,0.92,0.357,0.187,0.056
-27,Guatemala,6.436,0.8,1.269,0.746,0.535,0.175,0.078
-28,Saudi Arabia,6.375,1.403,1.357,0.795,0.439,0.08,0.132
-29,Qatar,6.374,1.684,1.313,0.871,0.555,0.22,0.167
-30,Spain,6.354,1.286,1.484,1.062,0.362,0.153,0.079
-31,Panama,6.321,1.149,1.442,0.91,0.516,0.109,0.054
-32,Brazil,6.3,1.004,1.439,0.802,0.39,0.099,0.086
-33,Uruguay,6.293,1.124,1.465,0.891,0.523,0.127,0.15
-34,Singapore,6.262,1.572,1.463,1.141,0.556,0.271,0.453
-35,El Salvador,6.253,0.794,1.242,0.789,0.43,0.093,0.074
-36,Italy,6.223,1.294,1.488,1.039,0.231,0.158,0.03
-37,Bahrain,6.199,1.362,1.368,0.871,0.536,0.255,0.11
-38,Slovakia,6.198,1.246,1.504,0.881,0.334,0.121,0.014
-39,Trinidad & Tobago,6.192,1.231,1.477,0.713,0.489,0.185,0.016
-40,Poland,6.182,1.206,1.438,0.884,0.483,0.117,0.05
-41,Uzbekistan,6.174,0.745,1.529,0.756,0.631,0.322,0.24
-42,Lithuania,6.149,1.238,1.515,0.818,0.291,0.043,0.042
-43,Colombia,6.125,0.985,1.41,0.841,0.47,0.099,0.034
-44,Slovenia,6.118,1.258,1.523,0.953,0.564,0.144,0.057
-45,Nicaragua,6.105,0.694,1.325,0.835,0.435,0.2,0.127
-46,Kosovo,6.1,0.882,1.232,0.758,0.489,0.262,0.006
-47,Argentina,6.086,1.092,1.432,0.881,0.471,0.066,0.05
-48,Romania,6.07,1.162,1.232,0.825,0.462,0.083,0.005
-49,Cyprus,6.046,1.263,1.223,1.042,0.406,0.19,0.041
-50,Ecuador,6.028,0.912,1.312,0.868,0.498,0.126,0.087
-51,Kuwait,6.021,1.5,1.319,0.808,0.493,0.142,0.097
-52,Thailand,6.008,1.05,1.409,0.828,0.557,0.359,0.028
-53,Latvia,5.94,1.187,1.465,0.812,0.264,0.075,0.064
-54,South Korea,5.895,1.301,1.219,1.036,0.159,0.175,0.056
-55,Estonia,5.893,1.237,1.528,0.874,0.495,0.103,0.161
-56,Jamaica,5.89,0.831,1.478,0.831,0.49,0.107,0.028
-57,Mauritius,5.888,1.12,1.402,0.798,0.498,0.215,0.06
-58,Japan,5.886,1.327,1.419,1.088,0.445,0.069,0.14
-59,Honduras,5.86,0.642,1.236,0.828,0.507,0.246,0.078
-60,Kazakhstan,5.809,1.173,1.508,0.729,0.41,0.146,0.096
-61,Bolivia,5.779,0.776,1.209,0.706,0.511,0.137,0.064
-62,Hungary,5.758,1.201,1.41,0.828,0.199,0.081,0.02
-63,Paraguay,5.743,0.855,1.475,0.777,0.514,0.184,0.08
-64,Northern Cyprus,5.718,1.263,1.252,1.042,0.417,0.191,0.162
-65,Peru,5.697,0.96,1.274,0.854,0.455,0.083,0.027
-66,Portugal,5.693,1.221,1.431,0.999,0.508,0.047,0.025
-67,Pakistan,5.653,0.677,0.886,0.535,0.313,0.22,0.098
-68,Russia,5.648,1.183,1.452,0.726,0.334,0.082,0.031
-69,Philippines,5.631,0.807,1.293,0.657,0.558,0.117,0.107
-70,Serbia,5.603,1.004,1.383,0.854,0.282,0.137,0.039
-71,Moldova,5.529,0.685,1.328,0.739,0.245,0.181,0.0
-72,Libya,5.525,1.044,1.303,0.673,0.416,0.133,0.152
-73,Montenegro,5.523,1.051,1.361,0.871,0.197,0.142,0.08
-74,Tajikistan,5.467,0.493,1.098,0.718,0.389,0.23,0.144
-75,Croatia,5.432,1.155,1.266,0.914,0.296,0.119,0.022
-76,Hong Kong,5.43,1.438,1.277,1.122,0.44,0.258,0.287
-77,Dominican Republic,5.425,1.015,1.401,0.779,0.497,0.113,0.101
-78,Bosnia and Herzegovina,5.386,0.945,1.212,0.845,0.212,0.263,0.006
-79,Turkey,5.373,1.183,1.36,0.808,0.195,0.083,0.106
-80,Malaysia,5.339,1.221,1.171,0.828,0.508,0.26,0.024
-81,Belarus,5.323,1.067,1.465,0.789,0.235,0.094,0.142
-82,Greece,5.287,1.181,1.156,0.999,0.067,0.0,0.034
-83,Mongolia,5.285,0.948,1.531,0.667,0.317,0.235,0.038
-84,North Macedonia,5.274,0.983,1.294,0.838,0.345,0.185,0.034
-85,Nigeria,5.265,0.696,1.111,0.245,0.426,0.215,0.041
-86,Kyrgyzstan,5.261,0.551,1.438,0.723,0.508,0.3,0.023
-87,Turkmenistan,5.247,1.052,1.538,0.657,0.394,0.244,0.028
-88,Algeria,5.211,1.002,1.16,0.785,0.086,0.073,0.114
-89,Morocco,5.208,0.801,0.782,0.782,0.418,0.036,0.076
-90,Azerbaijan,5.208,1.043,1.147,0.769,0.351,0.035,0.182
-91,Lebanon,5.197,0.987,1.224,0.815,0.216,0.166,0.027
-92,Indonesia,5.192,0.931,1.203,0.66,0.491,0.498,0.028
-93,China,5.191,1.029,1.125,0.893,0.521,0.058,0.1
-94,Vietnam,5.175,0.741,1.346,0.851,0.543,0.147,0.073
-95,Bhutan,5.082,0.813,1.321,0.604,0.457,0.37,0.167
-96,Cameroon,5.044,0.549,0.91,0.331,0.381,0.187,0.037
-97,Bulgaria,5.011,1.092,1.513,0.815,0.311,0.081,0.004
-98,Ghana,4.996,0.611,0.868,0.486,0.381,0.245,0.04
-99,Ivory Coast,4.944,0.569,0.808,0.232,0.352,0.154,0.09
-100,Nepal,4.913,0.446,1.226,0.677,0.439,0.285,0.089
-101,Jordan,4.906,0.837,1.225,0.815,0.383,0.11,0.13
-102,Benin,4.883,0.393,0.437,0.397,0.349,0.175,0.082
-103,Congo (Brazzaville),4.812,0.673,0.799,0.508,0.372,0.105,0.093
-104,Gabon,4.799,1.057,1.183,0.571,0.295,0.043,0.055
-105,Laos,4.796,0.764,1.03,0.551,0.547,0.266,0.164
-106,South Africa,4.722,0.96,1.351,0.469,0.389,0.13,0.055
-107,Albania,4.719,0.947,0.848,0.874,0.383,0.178,0.027
-108,Venezuela,4.707,0.96,1.427,0.805,0.154,0.064,0.047
-109,Cambodia,4.7,0.574,1.122,0.637,0.609,0.232,0.062
-110,Palestinian Territories,4.696,0.657,1.247,0.672,0.225,0.103,0.066
-111,Senegal,4.681,0.45,1.134,0.571,0.292,0.153,0.072
-112,Somalia,4.668,0.0,0.698,0.268,0.559,0.243,0.27
-113,Namibia,4.639,0.879,1.313,0.477,0.401,0.07,0.056
-114,Niger,4.628,0.138,0.774,0.366,0.318,0.188,0.102
-115,Burkina Faso,4.587,0.331,1.056,0.38,0.255,0.177,0.113
-116,Armenia,4.559,0.85,1.055,0.815,0.283,0.095,0.064
-117,Iran,4.548,1.1,0.842,0.785,0.305,0.27,0.125
-118,Guinea,4.534,0.38,0.829,0.375,0.332,0.207,0.086
-119,Georgia,4.519,0.886,0.666,0.752,0.346,0.043,0.164
-120,Gambia,4.516,0.308,0.939,0.428,0.382,0.269,0.167
-121,Kenya,4.509,0.512,0.983,0.581,0.431,0.372,0.053
-122,Mauritania,4.49,0.57,1.167,0.489,0.066,0.106,0.088
-123,Mozambique,4.466,0.204,0.986,0.39,0.494,0.197,0.138
-124,Tunisia,4.461,0.921,1.0,0.815,0.167,0.059,0.055
-125,Bangladesh,4.456,0.562,0.928,0.723,0.527,0.166,0.143
-126,Iraq,4.437,1.043,0.98,0.574,0.241,0.148,0.089
-127,Congo (Kinshasa),4.418,0.094,1.125,0.357,0.269,0.212,0.053
-128,Mali,4.39,0.385,1.105,0.308,0.327,0.153,0.052
-129,Sierra Leone,4.374,0.268,0.841,0.242,0.309,0.252,0.045
-130,Sri Lanka,4.366,0.949,1.265,0.831,0.47,0.244,0.047
-131,Myanmar,4.36,0.71,1.181,0.555,0.525,0.566,0.172
-132,Chad,4.35,0.35,0.766,0.192,0.174,0.198,0.078
-133,Ukraine,4.332,0.82,1.39,0.739,0.178,0.187,0.01
-134,Ethiopia,4.286,0.336,1.033,0.532,0.344,0.209,0.1
-135,Swaziland,4.212,0.811,1.149,0.0,0.313,0.074,0.135
-136,Uganda,4.189,0.332,1.069,0.443,0.356,0.252,0.06
-137,Egypt,4.166,0.913,1.039,0.644,0.241,0.076,0.067
-138,Zambia,4.107,0.578,1.058,0.426,0.431,0.247,0.087
-139,Togo,4.085,0.275,0.572,0.41,0.293,0.177,0.085
-140,India,4.015,0.755,0.765,0.588,0.498,0.2,0.085
-141,Liberia,3.975,0.073,0.922,0.443,0.37,0.233,0.033
-142,Comoros,3.973,0.274,0.757,0.505,0.142,0.275,0.078
-143,Madagascar,3.933,0.274,0.916,0.555,0.148,0.169,0.041
-144,Lesotho,3.802,0.489,1.169,0.168,0.359,0.107,0.093
-145,Burundi,3.775,0.046,0.447,0.38,0.22,0.176,0.18
-146,Zimbabwe,3.663,0.366,1.114,0.433,0.361,0.151,0.089
-147,Haiti,3.597,0.323,0.688,0.449,0.026,0.419,0.11
-148,Botswana,3.488,1.041,1.145,0.538,0.455,0.025,0.1
-149,Syria,3.462,0.619,0.378,0.44,0.013,0.331,0.141
-150,Malawi,3.41,0.191,0.56,0.495,0.443,0.218,0.089
-151,Yemen,3.38,0.287,1.163,0.463,0.143,0.108,0.077
-152,Rwanda,3.334,0.359,0.711,0.614,0.555,0.217,0.411
-153,Tanzania,3.231,0.476,0.885,0.499,0.417,0.276,0.147
-154,Afghanistan,3.203,0.35,0.517,0.361,0.0,0.158,0.025
-155,Central African Republic,3.083,0.026,0.0,0.105,0.225,0.235,0.035
-156,South Sudan,2.853,0.306,0.575,0.295,0.01,0.202,0.091
+"number","opened_at","closed_at","short_description","caller_id","priority","business_impact","cmdb_ci","state","category","assignment_group","assigned_to","sys_updated_on","sys_updated_by","business_duration","calendar_duration","u_predicted_duration","u_actual_duration"
+"INC0000055","2023-01-10 20:47:23","2023-08-13 23:57:17","SAP Sales app is not accessible 12","Carol Coughlin","1 - Critical","","SAP Sales and Distribution","Closed","","Service Desk","Beth Anglin","2023-08-16 07:20:23","admin","4406400","18583794","",""
+"INC0000601","2023-01-27 01:42:59","2023-04-26 03:11:04","The USB port on my PC stopped working 12","Beth Anglin","5 - Planning","","*BETH-IBM","Closed","Hardware","","","2023-08-16 07:20:31","admin","86400","264417","",""
+"INC0000005","2022-10-27 16:06:52","2023-01-31 19:52:12","CPU load high for over 10 minutes","Alejandro Mascall","1 - Critical","","ApplicationServerPeopleSoft","Closed","Hardware","Hardware","Bud Richman","2023-08-12 02:10:49","admin","1869258","7690046","",""
+"INC0000014","2022-10-06 16:37:35","2023-01-31 19:52:12","Missing my home directory","Bow Ruggeri","1 - Critical","","","Closed","Inquiry / Help","","Bud Richman","2023-08-12 02:10:49","admin","2301243","9502588","",""
+"INC0000038","2022-11-07 16:36:44","2022-11-14 16:37:14","my PDF docs are all locked from editing","Bow Ruggeri","4 - Low","","Adobe Acrobat 7.0.3 and Reader 7.0.3 Update","Closed","Software","Service Desk","Luke Wilson","2023-08-12 02:10:48","admin","1743569","7327169","",""
+"INC0000006","2022-10-31 16:08:05","2022-11-13 16:36:40","Hangs when trying to print VISIO document","Joe Employee","1 - Critical","","","Closed","Software","Software","Howard Johnson","2023-08-12 02:10:50","admin","1892887","7937287","",""
+"INC0000035","2022-11-10 16:32:47","2022-11-13 16:33:33","Reset my password","Natasha Ingram","5 - Planning","","CALLXPR1","Closed","Inquiry / Help","Service Desk","Luke Wilson","2023-08-12 02:10:49","admin","1713373","7068206","",""
+"INC0000024","2022-11-13 15:52:52","2022-11-13 15:53:08","Issue with a web page on wiki","Fred Luddy","5 - Planning","","","Closed","Inquiry / Help","Service Desk","ITIL User","2023-08-12 02:10:48","admin","1631000","6811400","",""
+"INC0000013","2022-11-12 15:15:58","2022-11-13 15:18:40","EMAIL is slow when an attachment is involved","Joe Employee","1 - Critical","","","Closed","Inquiry / Help","Software","David Loo","2023-08-12 02:10:49","admin","1661930","6899930","",""
+"INC0000008","2022-11-08 15:08:39","2022-11-13 15:08:57","Printer in my office is out of toner","Joe Employee","1 - Critical","","","Closed","Inquiry / Help","Hardware","ITIL User","2023-08-12 02:10:49","admin","1720053","7246053","",""
+"INC0000021","2022-11-07 15:52:01","2022-11-12 15:52:17","New employee hire","Fred Luddy","5 - Planning","","","Closed","Inquiry / Help","","Beth Anglin","2023-08-12 02:10:48","admin","1746251","7329851","",""
+"INC0000011","2022-11-08 15:01:12","2022-11-12 15:02:54","Need new Blackberry set up","Don Goodliffe","3 - Moderate","","","Closed","Inquiry / Help","Hardware","ITIL User","2023-08-12 02:10:49","admin","1720500","7246500","",""
+"INC0000036","2022-11-07 16:33:49","2022-11-11 16:34:21","Issue with networking","Carol Coughlin","5 - Planning","","DatabaseServer2","Closed","Inquiry / Help","Network","Luke Wilson","2023-08-12 02:10:49","admin","1743744","7327344","",""
+"INC0000030","2022-11-08 16:01:12","2022-11-08 17:02:14","Lost connection to the wireless network","Rick Berzle","5 - Planning","","","Closed","Hardware","Network","David Loo","2023-08-12 02:10:48","admin","1716900","7242900","",""
+"INC0000004","2022-11-07 14:49:22","2022-11-08 16:40:24","Forgot email password","Fred Luddy","1 - Critical","","","Closed","Inquiry / Help","Service Desk","Bud Richman","2023-08-12 02:10:49","admin","1751222","7334822","",""
+"INC0000012","2022-10-16 16:07:00","2022-11-08 15:12:02","Customer didn't receive eFax","Don Goodliffe","5 - Planning","","eFax","Closed","Software","Database","David Loo","2023-08-12 02:10:49","admin","2209752","9233352","",""
+"INC0000009","2022-11-07 14:50:23","2022-11-08 14:55:16","Reset my password","Rick Berzle","1 - Critical","","","Closed","Inquiry / Help","Service Desk","David Loo","2023-08-12 02:10:49","admin","1749949","7333549","",""
+"INC0000010","2022-11-01 15:53:02","2022-11-06 14:54:55","Need Oracle 10GR2 installed","Fred Luddy","4 - Low","","","Closed","Database","Database","Don Goodliffe","2023-08-12 02:10:49","admin","1864990","7851790","",""
+"INC0000037","2022-11-02 17:34:56","2022-11-02 17:35:39","Request for a new service","Sam Sorokin","3 - Moderate","","EFOWEB","In Progress","Inquiry / Help","Service Desk","Howard Johnson","2023-01-31 11:51:40","admin","43","43","",""
+"INC0000027","2022-10-29 16:55:55","2022-11-02 16:59:20","Please remove the latest hotfix from my PC","Fred Luddy","2 - High","","Windows XP Hotfix (SP2) Q817606","In Progress","Software","","ITIL User","2023-09-07 03:15:53","admin","93885","345805","",""
+"INC0000001","2022-10-31 16:09:51","2022-11-01 16:10:06","Can't read email","Fred Luddy","1 - Critical","","MailServerUS","Closed","Network","Service Desk","Charlie Whitherspoon","2023-08-12 02:10:50","admin","1892781","7937181","",""
+"INC0000028","2022-10-24 16:58:00","2022-10-29 16:58:58","My disk is still having issues. Can't delete a file","Rick Berzle","5 - Planning","","","Closed","Inquiry / Help","Service Desk","Don Goodliffe","2023-08-12 02:10:48","admin","2033892","8539092","",""
+"INC0000025","2022-10-10 16:53:46","2022-10-28 16:55:10","Need to add more memory to laptop","Don Goodliffe","1 - Critical","","IBM-T42-DLG","In Progress","Hardware","","ITIL User","2023-01-31 11:44:35","admin","1209684","1555284","",""
+"INC0000016","2022-10-12 16:40:23","2022-10-28 16:40:40","Rain is leaking on main DNS Server","Bow Ruggeri","1 - Critical","","","In Progress","Hardware","Hardware","ITIL User","2023-01-31 11:51:23","admin","959937","1382417","",""
+"INC0000019","2022-10-20 16:44:39","2022-10-26 16:45:37","Can't launch 64-bit Windows 7 virtual machine","Fred Luddy","2 - High","","","In Progress","Software","","Bud Richman","2023-01-31 11:46:13","admin","268184","518458","",""
+"INC0000032","2022-10-23 17:19:36","2022-10-23 17:35:27","EMAIL Server Down Again","Joe Employee","5 - Planning","","","Closed","Inquiry / Help","Hardware","David Loo","2023-08-12 02:10:49","admin","2061396","8624196","",""
+"INC0000015","2022-10-17 16:38:46","2022-10-22 16:39:10","I can't launch my VPN client since the last software update","Fred Luddy","1 - Critical","","Saints and Sinners Bingo","In Progress","Software","Software","Don Goodliffe","2023-01-31 11:50:33","admin","432000","432024","",""
+"INC0000018","2022-10-18 16:42:46","2022-10-19 16:44:21","Sales forecast spreadsheet is READ ONLY","Taylor Vreeland","1 - Critical","","","In Progress","","","ITIL User","2023-01-31 11:37:49","admin","9173","86495","",""
+"INC0000033","2022-10-17 15:22:52","2022-10-17 17:24:08","File Server is 80% full - Needs upgrade","David Loo","1 - Critical","","","Closed","Inquiry / Help","Hardware","Don Goodliffe","2023-08-12 02:10:49","admin","2183601","9149601","",""
+"INC0000026","2022-10-15 16:54:59","2022-10-17 16:56:53","Seem to have an issue with my hard drive...","Rick Berzle","5 - Planning","","","Closed","Hardware","Hardware","Don Goodliffe","2023-08-12 02:10:48","admin","2235673","9316873","",""
+"INC0000034","2022-10-14 13:25:29","2022-10-15 17:26:41","Does not look like a backup occurred last night","Rick Berzle","1 - Critical","","","Closed","Software","Software","David Loo","2023-08-12 02:10:49","admin","2061992","8624792","",""
+"INC0000031","2022-10-05 17:18:03","2022-10-05 17:30:02","Need help with Remedy. Can we configure UI?","Joe Employee","1 - Critical","","","In Progress","Inquiry / Help","","David Loo","2023-01-31 11:44:20","admin","719","719","",""
+"INC0009004","2018-09-01 06:13:30","2018-12-09 19:29:09","Defect tracking tool is down.","David Miller","3 - Moderate","","","Closed","Software","","","2023-08-12 02:10:49","admin","0","323","",""
+"INC0009002","2018-09-16 05:49:23","2018-12-09 19:29:08","My computer is not detecting the headphone device","David Miller","3 - Moderate","","","Closed","Hardware","","","2023-08-12 02:10:49","admin","0","114","",""
+"INC0009003","2018-08-30 02:17:32","2018-08-30 02:49:17","Cannot sign into the company portal app","David Miller","3 - Moderate","","","Closed","Inquiry / Help","","","2023-08-12 02:10:49","admin","0","1905","",""
+"INC0000060","2016-12-12 07:19:57","2016-12-13 18:46:44","Unable to connect to email","Joe Employee","3 - Moderate","","Storage Area Network 001","Closed","Inquiry / Help","Network","David Loo","2023-08-12 02:10:49","admin","28800","102197","",""
+"INC0010001","2023-08-12 09:08:44","","Result","Abel Tuter","2 - High","","","New","Inquiry / Help","","","2023-08-12 09:09:25","admin","0","0","",""
+"INC0000059","2016-08-10 09:14:29","","Unable to access team file share","Rick Berzle","3 - Moderate","","","New","Inquiry / Help","","","2016-08-10 09:14:29","admin","0","0","",""
+"INC0000058","2016-08-10 09:37:45","","Performance problems with email","Bow Ruggeri","5 - Planning","","","New","Inquiry / Help","","","2016-08-10 09:37:45","admin","0","0","",""
+"INC0000057","2016-08-10 09:14:59","","Performance problems with wifi","Bertie Luby","5 - Planning","","","New","Inquiry / Help","","","2016-08-10 09:14:59","admin","0","0","",""
+"INC0001990","2020-06-07 09:02:25","","Unable to access the personal details section in payroll portal","Problem CoordinatorATF","5 - Planning","","","On Hold","Inquiry / Help","","","2020-06-07 09:04:34","admin","0","0","",""
+"INC0007001","2018-10-16 22:47:10","","Employee payroll application server is down.","David Miller","1 - Critical","","","New","Hardware","Openspace","","2023-01-31 19:42:30","system","0","0","",""
+"INC0007002","2018-10-16 22:47:51","","Need access to the common drive.","David Miller","4 - Low","","","New","Inquiry / Help","","","2018-12-12 23:28:49","admin","0","0","",""
+"INC0008001","2021-01-15 13:04:14","","ATF:TEST2","survey user","5 - Planning","","","New","Inquiry / Help","","","2021-01-21 15:31:42","admin","0","0","",""
+"INC0008111","2019-07-22 14:04:57","","ATF : Test1","System Administrator","5 - Planning","","","New","Inquiry / Help","","","2019-07-22 14:05:48","admin","0","0","",""
+"INC0008112","2019-07-29 11:48:43","","Assessment :  ATF Assessor","survey user","5 - Planning","","","New","Inquiry / Help","","","2019-07-29 11:49:28","admin","0","0","",""
+"INC0009009","2018-08-30 01:06:16","","Unable to access the shared folder.","David Miller","4 - Low","","","New","Inquiry / Help","","","2018-12-12 23:30:24","admin","0","0","",""
+"INC0009005","2018-08-31 21:35:21","","Email server is down.","David Miller","1 - Critical","","","New","Software","","","2018-12-12 23:18:55","admin","0","0","",""
+"INC0009001","2018-09-11 20:56:26","","Unable to post content on a Wiki page","David Miller","3 - Moderate","","","New","Inquiry / Help","","","2018-12-12 23:32:42","admin","0","0","",""
+"INC0000054","2015-11-02 12:49:08","","SAP Materials Management is slow or there is an outage","Christen Mitchell","1 - Critical","","SAP Materials Management","On Hold","Software","Service Desk","","2015-11-24 07:47:36","admin","0","0","",""
+"INC0000003","2022-11-01 16:07:30","","Wireless access is down in my area","Joe Employee","1 - Critical","","","In Progress","Network","Network","Beth Anglin","2023-01-31 11:51:14","admin","0","0","",""
+"INC0000007","2015-08-12 16:08:24","","Need access to sales DB for the West","Joe Employee","1 - Critical","","","On Hold","Database","","David Loo","2015-11-24 07:47:36","admin","0","0","",""
+"INC0000017","2015-08-12 16:41:00","","How do I create a sub-folder","Joe Employee","1 - Critical","","","On Hold","Inquiry / Help","Service Desk","Fred Luddy","2015-11-24 07:47:36","admin","0","0","",""
+"INC0000020","2022-10-30 16:51:35","","I need a replacement iPhone, please","Fred Luddy","5 - Planning","","","In Progress","Inquiry / Help","","ITIL User","2023-01-31 11:45:32","admin","0","0","",""
+"INC0000029","2022-10-31 17:00:44","","I can't get my weather report","Charlie Whitherspoon","5 - Planning","","WeatherBug","In Progress","Inquiry / Help","Service Desk","Don Goodliffe","2023-01-31 11:50:57","admin","0","0","",""
+"INC0000039","2022-11-02 17:41:01","","Trouble getting to Oregon mail server","Bud Richman","5 - Planning","","MailServerUS","New","Network","Network","","2023-01-31 11:39:15","admin","0","0","",""
+"INC0000040","2022-11-02 17:42:45","","JavaScript error on hiring page of corporate website","Bud Richman","3 - Moderate","","WEBSERVER","On Hold","Inquiry / Help","","ITIL User","2023-01-31 11:46:30","admin","0","0","",""
+"INC0000041","2022-11-02 17:44:53","","My desk phone does not work","Bow Ruggeri","3 - Moderate","","","In Progress","Hardware","","ITIL User","2023-01-31 11:52:15","admin","0","0","",""
+"INC0000044","2022-11-02 17:47:08","","Can't log into SAP from my laptop today","Joe Employee","2 - High","","","In Progress","","","Fred Luddy","2023-01-31 11:52:03","admin","0","0","",""
+"INC0000046","2023-01-10 14:04:15","","Can't access SFA software","Bud Richman","3 - Moderate","","Sales Force Automation","New","Software","Software","","2023-01-09 14:37:27","glide.maint","0","0","",""
+"INC0000047","2023-01-10 12:53:18","","Issue with email","Joe Employee","3 - Moderate","","*JEMPLOYEE-IBM","In Progress","Inquiry / Help","Software","Beth Anglin","2023-01-31 11:51:52","admin","0","0","",""
+"INC0000048","2015-11-02 14:05:36","","Having problems with Sales Tools performance","Luke Wilson","4 - Low","","Sales Force Automation","On Hold","","","ITIL User","2015-11-24 07:46:20","admin","0","0","",""
+"INC0000049","2023-01-10 13:56:37","","Network storage unavailable","Beth Anglin","2 - High","","nyc rac nas200","In Progress","Network","Hardware","Don Goodliffe","2023-01-31 11:52:34","admin","0","0","",""
+"INC0000050","2023-01-10 13:58:24","","Can't access Exchange server - is it down?","Jerrod Bennett","1 - Critical","","EXCH-SD-05","In Progress","Hardware","Hardware","Beth Anglin","2023-01-31 11:49:40","admin","0","0","",""
+"INC0000051","2023-01-10 12:48:32","","Manager can't access SAP Controlling application","Joe Employee","1 - Critical","","SAP Controlling","In Progress","Software","Software","Don Goodliffe","2023-01-31 11:40:45","admin","0","0","",""
+"INC0000052","2023-01-10 12:48:40","","SAP Financial Accounting application appears to be down","Bud Richman","1 - Critical","","SAP Financial Accounting","In Progress","Software","Software","Fred Luddy","2023-01-24 13:50:24","system","0","0","",""
+"INC0000053","2023-01-10 12:48:46","","The SAP HR application is not accessible","Margaret Grey","1 - Critical","","SAP Human Resources","In Progress","Inquiry / Help","Software","Beth Anglin","2023-01-31 11:42:25","admin","0","0","",""
+"INC0000002","2022-10-25 16:07:12","","Network file shares access issue","Fred Luddy","1 - Critical","","FileServerFloor2","On Hold","Network","Network","Howard Johnson","2023-01-31 11:51:11","admin","0","0","",""
