@@ -1,5 +1,5 @@
 import streamlit as st 
-from lida import Manager, TextGenerationConfig , llm  
+from lida import Manager, TextGenerationConfig , llm, TextGenerator
 from dotenv import load_dotenv
 import os
 import openai
@@ -25,7 +25,8 @@ openaiKey = st.sidebar.text_input('OpenAI Key', '')
 # os.environ["OPENAI_API_KEY"] = openaiKey
 if st.button("Start Session") or 'OPENAI_API_KEY' in st.session_state:
     st.session_state.OPENAI_API_KEY = openaiKey
-    lida = Manager(text_gen = llm("openai"))
+    # openAI = TextGenerator()
+    lida = Manager(text_gen = llm("openai", api_key=openaiKey ))
     menu = st.sidebar.selectbox("Choose an Option", ["Summarize", "Question based Graph"])
 
     if menu == "Summarize":
