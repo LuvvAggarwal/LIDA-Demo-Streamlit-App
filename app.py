@@ -59,46 +59,46 @@ if st.button("Start Session") or 'OPENAI_API_KEY' in st.session_state:
 
 
                 
-        elif menu == "Question based Graph":
-            charts=''
-            st.subheader("Query your Data to Generate Graph")
-            file_uploader = st.file_uploader("Upload your CSV", type="csv")
-            if file_uploader is not None:
-                path_to_save = "filename1.csv"
-                with open(path_to_save, "wb") as f:
-                    f.write(file_uploader.getvalue())
-                text_area = st.text_area("Query your Data to Generate Graph", height=200)
-                if st.button("Generate Graph"):
-                    if len(text_area) > 0:
-                        st.info("Your Query: " + text_area)
-                        lida = Manager(text_gen = llm("openai")) 
-                        textgen_config = TextGenerationConfig(n=1, temperature=0.2, use_cache=True)
-                        summary = lida.summarize("filename1.csv", summary_method="default", textgen_config=textgen_config)
-                        user_query = text_area
-                        charts = lida.visualize(summary=summary, goal=user_query, textgen_config=textgen_config)  
-                        # charts[0]
-                        print(charts)
-                        if(charts):
-                            image_base64 = charts[0].raster
-                            img = base64_to_image(image_base64)
-                            st.image(img)
-                        else:
-                            st.write("Error in generating chart")
-                        instruction = st.text_area("Instructions for editing the chart", height=200)   
-                        instruction_arr = instruction.split(",") #["change color as red for CA location", "change color as blue for NY location"]
+    elif menu == "Question based Graph":
+        charts=''
+        st.subheader("Query your Data to Generate Graph")
+        file_uploader = st.file_uploader("Upload your CSV", type="csv")
+        if file_uploader is not None:
+            path_to_save = "filename1.csv"
+            with open(path_to_save, "wb") as f:
+                f.write(file_uploader.getvalue())
+            text_area = st.text_area("Query your Data to Generate Graph", height=200)
+            if st.button("Generate Graph"):
+                if len(text_area) > 0:
+                    st.info("Your Query: " + text_area)
+                    lida = Manager(text_gen = llm("openai", api_key=openaiKey ))
+                    textgen_config = TextGenerationConfig(n=1, temperature=0.2, use_cache=True)
+                    summary = lida.summarize("filename1.csv", summary_method="default", textgen_config=textgen_config)
+                    user_query = text_area
+                    charts = lida.visualize(summary=summary, goal=user_query, textgen_config=textgen_config)  
+                    # charts[0]
+                    print(charts)
+                    if(charts):
+                        image_base64 = charts[0].raster
+                        img = base64_to_image(image_base64)
+                        st.image(img)
+                    else:
+                        st.write("Error in generating chart")
+                    instruction = st.text_area("Instructions for editing the chart", height=200)   
+                    instruction_arr = instruction.split(",") #["change color as red for CA location", "change color as blue for NY location"]
                                 
-                        if st.button("Regenerate Graph"):
-                            # if len(instruction_arr) > 0:
-                                print("Regenerating")
-                                textgen_config = TextGenerationConfig(n=1, temperature=0.2, use_cache=True)
-                                summary = lida.summarize("filename1.csv", summary_method="default", textgen_config=textgen_config)
-                                print(charts)
-                                print(textgen_config)
-                                e_charts = lida.edit(code=charts[0]['code'],  summary=summary, instructions=instruction_arr, library="seaborn", textgen_config=textgen_config)
-                                charts = e_charts
-                                image_base64 = charts[0].raster
-                                img = base64_to_image(image_base64)
-                                st.image(img)
+                    if st.button("Regenerate Graph"):
+                    # if len(instruction_arr) > 0:
+                        print("Regenerating")
+                        textgen_config = TextGenerationConfig(n=1, temperature=0.2,use_cache=True)
+                        summary = lida.summarize("filename1.csv", summary_method="default",textgen_config=textgen_config)
+                        print(charts)
+                        print(textgen_config)
+                        e_charts = lida.edit(code=charts[0]['code'],  summary=summary,instructions=instruction_arr, library="seaborn",textgen_config=textgen_config)
+                        charts = e_charts
+                        image_base64 = charts[0].raster
+                        img = base64_to_image(image_base64)
+                        st.image(img)
                                         
 
 
